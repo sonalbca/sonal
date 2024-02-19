@@ -1,0 +1,1 @@
+console.log("sabhi logo ka swagat hai")
