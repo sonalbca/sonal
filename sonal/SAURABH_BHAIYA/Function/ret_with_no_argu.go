@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func per(Anil int, pt int) int {
-	pert := (Anil * pt) / 100
+func per(Gross int, pt int) int {
+	pert := (Gross * pt) / 100
 	return pert
 }
 
