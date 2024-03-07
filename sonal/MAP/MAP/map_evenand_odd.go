@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+func main() {
+	EvenAndOdd()
+}
 func EvenAndOdd() {
 	var EvenOdd = make(map[string]int)
 	EvenOdd["sonal"] = 1

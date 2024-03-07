@@ -20,11 +20,13 @@ func main() {
 	a.height = 24
 	area := 1 / 2 * a.breath * a.height
 	fmt.Println("area of triangle is ", area)
+
 	R := Rictangle{}
 	R.length = 12
 	R.width = 24
 	Ric := R.length * R.width
 	fmt.Println(Ric)
+
 	sq := square{}
 	sq.num = 2
 	squ := sq.num * sq.num

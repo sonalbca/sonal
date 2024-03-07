@@ -47,7 +47,6 @@ func main() {
 	j, er := json.Marshal(jsonData)
 	if er != nil {
 		fmt.Println("could not unmarshal")
-		return
 	}
 	fmt.Println("json ", string(j))
 }
